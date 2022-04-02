@@ -1,0 +1,40 @@
+// Fonts
+@import  url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+// Variables
+@import 'variables';
+$fa-font-path: "../webfonts";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Admin LTE
+@import '~admin-lte/dist/css/adminlte.css';
+// @import "~@coreui/coreui/scss/coreui";
+
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+.nav-link.router-link-active{
+    background-color: #3d5b95 !important;
+    color: #fff !important;
+}
+
+.tab-header.active{
+    background-color: #ffffff !important;
+}
+
+.individual-card{
+    margin-left: 3px;
+}
+
+
+.edit-button :hover{
+    color: green;
+}
+
+.clickable {
+    cursor: pointer
+}
